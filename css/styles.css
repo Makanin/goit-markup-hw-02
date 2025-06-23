@@ -51,8 +51,8 @@ font-weight: 700;
     letter-spacing: 0.02em;
 }
 
-.contacts-address :hover ,
-.contacts-address :focus {
+.contacts-address:hover ,
+.contacts-address:focus {
     color: #404bbf;
 }
 
