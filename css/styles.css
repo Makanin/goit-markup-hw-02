@@ -50,15 +50,17 @@ font-weight: 700;
     color: #434455;
     letter-spacing: 0.02em;
 }
-
-.contacts-address:hover ,
-.contacts-address:focus {
-    color: #404bbf;
-}
-
 .contacts-link{
     color: #434455;
+    text-decoration: none;
 }
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+
 
 /* HIRO */
 
