@@ -1,5 +1,5 @@
 body {
-    color: #2E2F42 ;
+    color: #434455 ;
     background-color: #ffffff;
 
     font-family:"Roboto", sans-serif;
@@ -18,16 +18,154 @@ ul, ol {
   padding: 0;
   margin: 0;
 }
+/* Лого */
+
+.logo{
+    color: #4d5ae5;
+
+    font-family:"Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+     line-height: 1.17;
+     text-transform: uppercase;
+}
+.logo-span{
+    color:#2e2f42 ;
+}
+
+.link-studio{
+    color: #2e2f42;
+
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.link-studio :hover,
+.link-studio :focus {
+    color: #404bbf;
+}
+
+.header-address{
+    font-style: normal;
+}
+
+.contacts-address{
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.contacts-address :hover ,
+.contacts-address :focus{
+    color: #404bbf;
+}
+
+/* HIRO */
 
 .hero{
     background-color: #2E2F42;
 }
 .hero-title{
     color: #FFFFFF;
+
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button{
+    color: #ffffff;
+    background-color: #4D5AE5;
+
+    text-align: center;
+    cursor: pointer;
+
+    font-weight: 500 ;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
 }
 .button :hover ,
 .button :focus {
-    color:#FFFFFF ;
-    background-color: #4D5AE5;
+    background-color: #404BBF;
+}
 
+/* SECTION 1 */
+
+.content-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.content-text{
+    color:  #434455;
+    letter-spacing: 0.02em;
+}
+
+/* SECTION TEAM */
+.team{
+    background-color: #F4F4FD;
+}
+.team-title{
+
+
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    
+    text-transform: capitalize;
+    text-align: center;
+}
+.team-list{
+    background-color: #FFFFFF
+}
+
+.team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-text{
+    color:  #434455;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+/* SECTION PORTFOLIO */
+
+.portfolio-title{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    
+    text-transform: capitalize;
+    text-align: center;
+}
+.portfolio-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-text{
+    color:  #434455;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #2e2f42;
+}
+.footer-logo-span{
+    color:#F4F4FD ;
+}
+.footer-text{
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
