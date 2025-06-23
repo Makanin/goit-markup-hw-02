@@ -31,7 +31,7 @@ font-weight: 700;
 }
 
 .link-studio {
-    color: #434455 ;
+    color: #2E2F42 ;
 
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -54,6 +54,10 @@ font-weight: 700;
 .contacts-address :hover ,
 .contacts-address :focus {
     color: #404bbf;
+}
+
+.contacts-link{
+    color: #434455;
 }
 
 /* HIRO */
@@ -91,7 +95,7 @@ font-weight: 700;
 
 .content-title {
     color: #2e2f42 ;
-    
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
