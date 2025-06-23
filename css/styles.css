@@ -14,3 +14,15 @@ font-family:"Roboto", sans-serif;
 font-weight: 700;
 }
 
+.hero{
+    background-color: #2E2F42;
+}
+.hero-title{
+    color: #FFFFFF;
+}
+.button :hover ,
+.button :focus {
+    color:#FFFFFF ;
+    background-color: #4D5AE5;
+
+}
