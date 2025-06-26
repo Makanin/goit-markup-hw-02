@@ -9,9 +9,12 @@ body {
     text-decoration: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
-font-family:"Roboto", sans-serif;
-font-weight: 700;
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 /* Лого */
@@ -37,8 +40,8 @@ font-weight: 700;
     letter-spacing: 0.02em;
 }
 
-.header-link :hover,
-.header-link :focus {
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
 }
 
@@ -93,9 +96,9 @@ font-weight: 700;
     background-color: #404BBF;
 }
 
-/* SECTION 1 */
+/* SECTION Benefits*/
 
-.content-title {
+.Benefits-title {
     color: #2e2f42 ;
 
     font-weight: 500;
@@ -104,7 +107,7 @@ font-weight: 700;
     letter-spacing: 0.02em;
 }
 
-.content-text {
+.Benefits-text {
     color:  #434455;
     letter-spacing: 0.02em;
 }
